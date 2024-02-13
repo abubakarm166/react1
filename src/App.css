@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar_nav{
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.letstart{
+  /* width: auto; */
+  border-radius: 20px;
+  border: none;
+  background-color: #EE0979;
+  width: max-content;
   color: white;
 }
+.nav-link{
+  width: max-content;
+  color: black;
+}
+.text{
+  /* background-image: 'url("jesman-fabio-1zwJqd5cNys-unsplash.png")'; */
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 120px;
+  width: 30%;
+  
+}
+.digital{
+  background: rgb(61,44,86);
+background: linear-gradient(69deg, rgba(61,44,86,1) 11%, rgba(0,0,0,0.31200983811493344) 46%);
+}
+.textt{
+  color: #EE0979;
+}
+.join{
+  color: #EE0979;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.mare{
+  background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
 
-.App-link {
-  color: #61dafb;
+}
+.containerr{
+  display: flex;
+  flex-direction: row;
+}
+.abc{
+  justify-content: center;
+  width: 16.6666666667%;
+  border: 2px solid white;
+  height:15vh ;
+  align-items: center;
+}
+.ac{
+  justify-content: center;
+  width: 16.6666666667%;
+  border: 2px solid white;
+  /* height:20vh ; */
+  align-items: center;
+}
+/* CSS */
+.marquee {
+  white-space: nowrap;
+  /* overflow: hidden; */
+  animation: marquee 20s linear infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.marquee:hover{
+  animation-play-state: paused;
+
+}
+.marqueee {
+  white-space: nowrap;
+  /* overflow: hidden; */
+  animation: marqueee 20s linear infinite;
+}
+
+@keyframes marqueee {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+.marqueee:hover{
+  animation-play-state: paused;
+
+}
+.services{
+  color: #3D2C56;
+  font-size: 52px;
+  font-weight: 700;
+}
+.fames{
+  font-size: 20px;
+  color: #7E7E7E;
+  font-weight: 700;
+
+}
+.earn{
+  font-weight: 500;
+}
+
+.disk{
+  right: 35px;
+  width: fit-content;
+  height:fit-content;
+  background-color: white;
+  position: relative;
+
+}
+.down{
+  color: #EE0979;
+}
+.ptag{
+  margin: 35px;
+}
+.social{
+  gap: 30px;
+}
+.footerul{
+  list-style: none;
+}
+.content{
+  background-color: 
+  #3D2C56;
+}
+.icons{
+  background-color: #EE0979;
+  color:white;
+  border-radius: 50%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  /* margin-top: 20px; */
+}
+.ccc{
+  color: #EE0979;
+}
+@media(max-width:992px){
+  .nav-link{
+    text-align: center;
+    width: 100%;
+    color: black;
   }
-  to {
-    transform: rotate(360deg);
-  }
+ .abc{
+  width: fit-content;
+ }
+ .ac{
+  width:fit-content;
+ }
+ .text{
+  /* background-image: 'url("jesman-fabio-1zwJqd5cNys-unsplash.png")'; */
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 40px;
+  width: 30%;
+  
+}
+.disk{
+  display: none;
+}
+.img{
+  object-fit: contain;
+    overflow: hidden;
+    border-radius: 20px;
+}
 }
